@@ -1,0 +1,88 @@
+@font-face{
+    font-family: "Oswald";
+    src: url('../fonts/Oswald-Regular.ttf');
+}
+.mainWrapper{
+    width:550px;
+    margin:20px auto;
+    font-family: "Oswald";
+    .login_header{
+        margin: 100px 0 30px;
+    }
+    .btn-primary{
+        background-color: rgb(42, 52, 177);
+        margin-top: 20px;
+        width: 200px;
+        height:39px;
+        cursor: pointer;
+    }
+    p{
+        width:400px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .forget-password-link{
+        margin-top: 25px;
+        margin-bottom: -12px;
+    }
+    .createAccountContent{
+        width:350px;
+        
+    }
+        .error{
+            color:red;
+            font-size: 12px;
+            margin-top: 15px;
+            margin-left: 75px;
+        }
+        .error-text{
+            color: red;
+            font-size:13px;
+            margin-top:20px;
+        }
+    .wrapper-social-networks{
+        border-top: 1px solid black;
+        margin-top: 45px;
+    }
+        .signUp-social-networks{
+            padding-top:40px;
+            .social-network-link{
+                margin-bottom: 15px;
+                width:280px;
+                height: 40px;
+                background-color: rgb(140, 140, 140);
+                cursor: pointer;
+                margin-left: auto;
+                margin-right: auto;
+                a{
+                    font-size: 18px;
+                    line-height: 40px;
+                    color: white;
+                    i{
+                        padding-right: 10px;
+                    }
+                }
+                &.link-a {
+                    font-size: 18px;
+                    line-height: 40px;
+                    color: white;
+                    i {
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }        
+    .footer{
+        margin-top: 30px;
+        width: 100%;
+        background-color: rgb(200, 200, 200);
+    }
+       .redirect-to-login{
+           line-height: 50px;
+           font-size: 12px;
+           .redirect-to-login-link{
+               padding-left:8px;
+           }
+       }
+}
